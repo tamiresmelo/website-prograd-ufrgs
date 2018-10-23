@@ -1,0 +1,13 @@
+.menu_item6:after {
+    width: 100%;
+}
+
+.interna_quem-somos {
+	background-color: rgba(203,67,49,1);
+}
+
+.interna_quem-somos-itens li:hover h2 {
+	border: 1px solid #cb4231;
+	background: #cb4231;
+	color: #fff;
+}

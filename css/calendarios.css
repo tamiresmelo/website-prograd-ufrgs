@@ -1,0 +1,14 @@
+.menu_item5:after {
+    width: 100%;
+}
+
+.interna_calendarios {
+	background-color: rgba(0,120,172,1);
+}
+
+.interna_calendarios-itens li:hover h2 {
+	border: 1px solid #0079ac;
+	background: #0079ac;
+	color: #fff;
+}
+

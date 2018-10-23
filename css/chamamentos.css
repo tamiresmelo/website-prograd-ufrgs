@@ -1,0 +1,4 @@
+.menu_ativo-interna a,
+.navegacao_lateral-interna a:hover {
+	border-left: 3px solid #378f6e;
+}

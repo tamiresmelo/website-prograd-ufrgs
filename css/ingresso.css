@@ -1,0 +1,26 @@
+.menu_ativo-interna > a,
+.navegacao_lateral-interna a:hover {
+	border-left: 3px solid #378f6e;
+}
+
+.interna_estude-ufrgs-img {
+	position: absolute;
+	top: 0px;
+}
+
+.interna_conteudo-geral {
+	margin-bottom: 60px;
+}
+
+.interna_conteudo-geral img {
+	padding: 20px 50px;
+	margin: 0 auto;
+}
+
+.ingresso-logo-pecg {
+	margin: 0 auto;
+	float: left;
+
+}
+
+

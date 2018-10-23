@@ -1,0 +1,111 @@
+.menu_item2:after {
+    width: 100%;
+}
+
+.interna_aluno {
+	background-color: rgba(227,121,76,1);
+}
+
+.interna_aluno-itens li:hover h2 {
+	border: 1px solid #e37a4c;
+	background: #e37a4c;
+	color: #fff;
+}
+
+
+
+
+/* INICIO - Barra DIV LATERAL ESQUERDA */
+
+.menu-total { 
+	margin-top: 60px;
+}
+
+.menu-lista{
+	width:20%;
+	
+}
+.menu-lista > ul{	
+	padding-bottom: 60px;
+
+}
+.menu-lista ul li{
+	border-bottom: 1px solid #cccbcb;
+	padding: 5px 0;
+}
+
+
+.menu-lista li a {
+	font-family: "proxima-nova-alt", Arial, Helvetica, sans-serif;
+   	display: block;
+    color: #0b3b7f;
+    padding: 10px;
+    text-transform: uppercase;
+	letter-spacing: 0;
+	font-size: 0.875em;
+	line-height: 1.25em;
+	list-style-type: none;
+    transition: all .3s ease; /* animação suavizada */
+}
+
+
+	/* links visitados */
+
+.menu-lista li a:visited {
+	color: #f86861;
+}
+
+	/* links hover, passar o cursor sobre o link */
+
+.menu-lista li a:hover {
+	background-color: #e37a4c;
+	color: #fff;
+}
+
+	/* links links ativos, quando clicado */
+
+.menu-lista h2 {
+	font-size: 1.375em;
+	color: #fff;	
+	padding: 10px 5px;
+	background: #0b3b7f;
+	border-bottom: 4px solid #ccc;
+	margin-bottom: 10px;
+
+
+}
+
+.menu-conteudo{
+	border-bottom: 3px solid #ccc;
+	margin-left: 30px;
+}
+
+.menu-conteudo h2{
+	font-size: 1.75em;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: .01em;
+	color: #0b3b7f;
+	padding-bottom:50px;
+	text-align: center;
+}
+
+.menu-conteudo p {	
+	font-size: 1em;
+	line-height: 1.25em;
+	color: #525252;
+	padding: 10px 0;
+
+
+}
+
+.manual-aluno{
+	margin-left: 20px;
+}
+.guia-calouros a, .manual-titulo a{
+	font-weight: bold;
+	color: red;
+
+}
+
+/* menu lista */

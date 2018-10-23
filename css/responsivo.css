@@ -1,0 +1,238 @@
+/* 
+Breakpoints - Estilos para tablets
+--------------------------------------------*/
+@media screen and (min-width: 760px) and (max-width: 1199px) {
+
+	.cabecalho_logo img {
+		max-width: 270px;
+	}
+	.link {
+	    font-size: 0.812em;
+	    letter-spacing: .008em;  
+	}
+	.menu {
+		text-align: left;
+	}
+	.link {
+   		padding: 7px 7px;
+	}
+	.menu_item:hover .submenu {
+    width: 40%;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+/* 
+Breakpoints  - Estilos para Smartphones
+--------------------------------------------*/
+@media only screen and (max-width: 759px) {
+	.cabecalho {
+		width: 100%;
+		position: fixed;
+		z-index: 10;
+	}
+	.cabecalho_logo img {
+		max-width: 250px;
+		float: left;
+		margin: 5px 10px;
+	}
+	/* Estilos do menu hamburguer
+	--------------------------------------------*/
+	.mobile_btn {
+		display: block;
+		color: #fff;
+		width: 36px;
+		height: 36px;
+		border-top: 4px solid;
+		margin: 35px 20px 0 0;
+		float: right;
+		position: relative;
+		cursor: pointer;
+		-webkit-backface-visibility: hidden;
+	}
+	.mobile_btn::after,
+	.mobile_btn::before {
+		content: '';
+		display: block;
+		height: 4px;
+		margin-top: 6px;
+		background: currentColor;
+		position: relative;
+		transition: transform .2s ease;
+	}
+	.mobile_btn.active {
+		border-top-color: transparent;
+	}
+	.mobile_btn.active::after {
+		margin-top: 0px;
+		top: 2px;
+		transform: rotate(45deg);
+	}
+	.mobile_btn.active::before {
+		margin-top: 0px;
+		top: 6px;
+		transform: rotate(135deg);
+	}
+
+	/* Estilos do menu mobile
+	--------------------------------------------*/
+	.mobile_menu {
+	    position: fixed;
+	    background: #fff;
+	    top: 65px;
+	    right: 0px;
+	    opacity: 0;
+	    visibility: hidden;
+	    transform: translate3d(60px, 0px, 0px);
+	    transition: .3s;
+	    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, .3);
+	    -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, .3);
+  	}
+  	.mobile_menu.active {
+	    opacity: 1;
+	    visibility: visible;
+	    transform: translate3d(0px, 0px, 0px);
+ 	}
+
+	.mobile_menu {
+	    overflow-y: scroll; 
+	    max-height: 80%;
+ 	}
+
+ 	.mobile_menu {
+	  	width: 280px;
+	  	margin: 20px auto 20px;
+	  	background: #fff;   
+	}
+
+	.mobile_menu .link {
+		cursor: pointer;
+		display: block;
+		padding: 15px 15px;
+		text-transform: uppercase;
+		color: #0b3b7f;
+		font-size: 1.125em;
+		font-weight: bold;
+		border-bottom: 1px solid #ccc;
+		position: relative;
+		-webkit-transition: all 0.4s ease;
+		transition: all 0.4s ease;  
+	}
+
+	.mobile_menu li:last-child .link {
+		border-bottom: 0; 
+	}
+
+	.mobile_menu li i.fa-chevron-down {
+		top: 20px;
+		position: absolute;
+		right: 20px;
+		left: auto;
+		font-size: 16px;
+		-webkit-transition: all 0.4s ease;
+		transition: all 0.4s ease;
+		color: #0b3b7f;
+	}
+
+	.mobile_menu li.open .mobile_menu-item1,
+	.mobile_menu li.open .mobile_menu-item1 i {
+		color: #378f6e; 
+	}
+
+	.mobile_menu li.open .mobile_menu-item2,
+	.mobile_menu li.open .mobile_menu-item2 i { 
+		color: #e37a4c; 
+	}
+
+	.mobile_menu li.open .mobile_menu-item3,
+	.mobile_menu li.open .mobile_menu-item3 i {
+		color: #1ea3a7; 
+	}
+
+	.mobile_menu li.open .mobile_menu-item4,
+	.mobile_menu li.open .mobile_menu-item4 i { 
+		color: #d19e40; 
+	}
+	.mobile_menu li.open .mobile_menu-item5,
+	.mobile_menu li.open .mobile_menu-item5 i {
+		color: #0079ac; 
+	}
+
+	.mobile_menu li.open .mobile_menu-item6,
+	.mobile_menu li.open .mobile_menu-item6 i { 
+		color: #cb4231; 
+	}
+
+	.mobile_menu li.open .mobile_menu-item7,
+	.mobile_menu li.open .mobile_menu-item7 i { 
+		color: #7148b8;  
+	}
+
+	.mobile_menu li.open i.fa-chevron-down {
+		-webkit-transform: rotate(180deg);
+		transform: rotate(180deg);
+	}
+
+	/* Estilos do submenu mobile
+	--------------------------------------------*/
+	.submenu {
+		display: none;
+		font-size: 1.125em;
+	}
+
+	.submenu li { 
+		border-bottom: 1px solid #f2f2f2;  
+	}
+
+	.submenu a {
+		display: block;
+		color: #525252;
+		padding: 12px;
+		padding-left: 25px;
+		-webkit-transition: all 0.25s ease;
+		transition: all 0.25s ease;
+	}
+
+	.submenu a:hover {
+		background: rgba(0, 0, 0, .1);
+		color: #525252;
+	}
+
+
+
+
+
+
+}
+
+
+

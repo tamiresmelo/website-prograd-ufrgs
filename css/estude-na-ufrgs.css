@@ -1,0 +1,61 @@
+.menu-ativo {
+    color: #378f6e;
+}
+.interna_estude {
+	background-color: rgba(55,143,111,1);
+}
+
+.interna_estude-itens li:hover h2 {
+	border: 1px solid #378f6e;
+	background: #378f6e;
+	color: #fff;
+}
+
+.interna_item1,
+.interna_item2 {
+	height: 300px;
+	width: 50%;
+}
+
+.interna_item1 {
+	background: rgba(56,143,111,.7);
+	margin: 60px 0 30px 0;
+}
+.interna_item2 {
+	background: rgba(11,59,127,1);
+	float: right;
+	margin-bottom: 60px;
+}
+
+.interna_item1 h2,
+.interna_item2 h2 {
+	color: #0b3b7f;
+	font-size: 2.625em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+	background: #fff;
+	position: relative;
+	padding: 100px 0;
+	cursor: pointer;
+}
+
+.interna_item1 h2 {
+	border: 2px solid rgba(56,143,111,.7);
+	border-radius: 0 15px 15px 0;
+	left: 60%;
+	top: 25px;
+
+}
+.interna_item2 h2 {
+	border: 2px solid rgba(11,59,127,1);
+	border-radius: 15px 0 0 15px;
+	left: -60%;
+	top: -25px;
+	margin-top: 50px;
+}
+.interna_item1 h2:hover,
+.interna_item2 h2:hover {
+	box-shadow: 2px 3px 5px rgba(0,0,0,.5);
+}
+

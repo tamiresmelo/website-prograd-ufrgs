@@ -1,0 +1,100 @@
+.menu_item4:after {
+    width: 100%;
+}
+
+.interna_gestor {
+	background-color: rgba(209,158,64,1);
+}
+
+.interna_gestor-itens li:hover h2 {
+	border: 1px solid #d19e40;
+	background: #d19e40;
+	color: #fff;
+}
+
+
+
+
+
+
+/* INICIO - Barra DIV LATERAL ESQUERDA */
+
+
+.gestor_menu_total { 
+	margin-top: 60px;
+    
+}
+
+
+.gestor_menu_lista li a {
+	font-family: "proxima-nova-alt", Arial, Helvetica, sans-serif;
+   	display: block;
+    color: #0b3b7f;
+    padding: 5px;
+    text-decoration: none;
+	letter-spacing: .1em;
+	font-size: 14px;
+	line-height: 20px;
+	list-style-type: none;
+    transition: all .3s ease; /* animação suavizada */
+    border-right: 1px solid #0b3b7f;  
+}
+
+
+	/* links visitados */
+
+.gestor_menu_lista li a:visited {
+	color: #f86861;
+}
+
+	/* links hover, passar o cursor sobre o link */
+
+.gestor_menu_lista li a:hover {
+	color: #e37a4c;
+	border-left: 5px solid  #e37a4c;
+}
+
+	/* links links ativos, quando clicado */
+
+.gestor_menu_lista li a.menu_ativo_1 {
+	border-left: 5px solid #e37a4c;
+	color: #e37a4c;
+}
+
+.kit_graduacao_sub {
+	margin-left: 30px;
+}
+.kit_graduacao_sub li a{
+	font-family: "proxima-nova-alt", Arial, Helvetica, sans-serif;
+   	display: block;
+    padding: 10px 5px;
+    text-decoration: none;
+	letter-spacing: .1em;
+	font-size: 12px;
+	line-height: 20px;
+	list-style-type: none;
+    transition: all .3s ease; /* animação suavizada */
+}
+
+.kit_graduacao_sub li a:hover{
+	border-left: 3px solid  #e37a4c;
+}
+
+
+.kit_graduacao_title h3{
+	position: absolute;
+	top: -390px;
+	left: 380px;
+	color: #0b3b7f;
+	font-size: 28px;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	font-weight: bold;
+}
+
+.footer{
+	margin-top: 60px;
+}
+
+
+
